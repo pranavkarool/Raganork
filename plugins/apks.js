@@ -234,6 +234,10 @@ Asena.addCommand({pattern: 'capcut', fromMe: false, dontAddCommandList: true}, (
       await message.sendMessage('💎 *DEEZER MOD* 💎\npremium unlocked.\n📌 bit.ly/drkdeezer');
    }));
 
+   Asena.addCommand({pattern: '.spotify', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      await message.sendMessage('💎 *Spotify Premium* 💎\npremium unlocked.\n📌 https://apkmody.io/apps/spotify-premium-apk/download');
+   }));
+
    Asena.addCommand({pattern: 'rbox', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *RADIO BOX* 💎\npremium unlocked.\n📌 bit.ly/drkradiobox');
    }));
