@@ -80,6 +80,10 @@ if (Config.WORKTYPE == 'private') {
       await message.sendMessage('💎 *FREEZER MOD* 💎\nPremium Unlocked.\n📌 bit.ly/drkfreezer');
    }));
 
+   Asena.addCommand({pattern: 'spotify', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      await message.sendMessage('💎 *Spotify Premium* 💎\npremium unlocked.\n📌 https://apkmody.io/apps/spotify-premium-apk/download');
+   }));
+
    Asena.addCommand({pattern: 'deezer', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *DEEZER MOD* 💎\npremium unlocked.\n📌 bit.ly/drkdeezer');
    }));
@@ -230,11 +234,15 @@ Asena.addCommand({pattern: 'capcut', fromMe: false, dontAddCommandList: true}, (
       await message.sendMessage('💎 *FREEZER MOD* 💎\npremium unlocked - spotify\n📌 bit.ly/drkfreezer');
    }));
 
+   Asena.addCommand({pattern: 'spotify', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      await message.sendMessage('💎 *Spotify Premium* 💎\npremium unlocked.\n📌 https://apkmody.io/apps/spotify-premium-apk/download');
+   }));
+
    Asena.addCommand({pattern: 'deezer', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *DEEZER MOD* 💎\npremium unlocked.\n📌 bit.ly/drkdeezer');
    }));
 
-   Asena.addCommand({pattern: '.spotify', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'spotify', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
       await message.sendMessage('💎 *Spotify Premium* 💎\npremium unlocked.\n📌 https://apkmody.io/apps/spotify-premium-apk/download');
    }));
 
